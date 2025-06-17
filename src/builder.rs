@@ -109,7 +109,7 @@ impl fmt::Display for Empty {
 #[cfg(all(feature = "std", feature = "bezier"))]
 impl Error for Empty {}
 
-/// Error returned if the elements are to few for the specific interpolation.
+/// Error returned if the elements are too few for the specific interpolation.
 #[cfg(any(feature = "linear", feature = "bspline"))]
 #[derive(Debug, Copy, Clone)]
 #[cfg_attr(feature = "serde", derive(serde::Deserialize, serde::Serialize))]
@@ -123,7 +123,7 @@ impl fmt::Display for TooFewElements {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(
             f,
-            "To few elements given for the interpolation. {} elements were given, but at least 2 are necessary.",
+            "Too few elements given for the interpolation. {} elements were given, but at least 2 are necessary.",
             self.found
         )
     }
