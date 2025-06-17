@@ -22,7 +22,7 @@
 //!
 //! Linear interplations are one of the simplest forms of interpolations.
 //! Most of the time, linear interpolations are used as an approximation of some smoother curve,
-//! such they often have many elements.
+//! and as such they often have many elements.
 //! For this reason the [`equidistant()`] method on the builder is recommended.
 //!
 //! `Linear` is always linear in its output but not necessarily in its input. In that case, we
