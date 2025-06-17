@@ -310,7 +310,7 @@ impl<E, F, W> LinearDirector<Unknown, E, F, W> {
     ///
     /// # Performance
     ///
-    /// If you have equidistant knots, near equidistant knots are you do not really care about
+    /// If you have equidistant knots, near equidistant knots, or you do not really care about
     /// knots, consider using [`equidistant()`] instead.
     ///
     /// [`equidistant()`]: LinearDirector::equidistant()
@@ -376,7 +376,7 @@ impl<E, F, W> LinearBuilder<Unknown, E, F, W> {
     ///
     /// # Performance
     ///
-    /// If you have equidistant knots, near equidistant knots are you do not really care about
+    /// If you have equidistant knots, near equidistant knots, or you do not really care about
     /// knots, consider using [`equidistant()`] instead.
     ///
     /// [`equidistant()`]: LinearBuilder::equidistant()
