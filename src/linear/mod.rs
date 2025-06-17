@@ -1,6 +1,6 @@
 //! Linear and quasi-linear interpolations.
 //!
-//! The easist way to create a linear interpolation is by using the builder pattern of [`LinearBuilder`].
+//! The easiest way to create a linear interpolation is by using the builder pattern of [`LinearBuilder`].
 //!
 //! ```rust
 //! # use enterpolation::{linear::{Linear, LinearError}, Signal, Curve};
